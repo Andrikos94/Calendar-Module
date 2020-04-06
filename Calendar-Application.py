@@ -1,0 +1,17 @@
+import calendar
+
+print(calendar.weekheader(3))
+print()
+print(calendar.firstweekday())
+print()
+print(calendar.month(2020,4,10))
+print(calendar.monthcalendar(2020,4))
+print(calendar.calendar(2020,2))
+today = calendar.weekday(2069,10,31)
+print(today)
+isleap_day=calendar.isleap(2020)
+print()
+print(isleap_day)
+print()
+how_many_leaps_day = calendar.leapdays(2020,2040)
+print(how_many_leaps_day)
